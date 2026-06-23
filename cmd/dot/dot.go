@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/goccy/go-graphviz"
+	"github.com/pd93/go-graphviz"
 	"github.com/jessevdk/go-flags"
 	"golang.org/x/term"
 )

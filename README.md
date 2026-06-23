@@ -1,4 +1,4 @@
-# go-graphviz [![Go](https://github.com/goccy/go-graphviz/workflows/Go/badge.svg)](https://github.com/goccy/go-graphviz/actions) [![GoDoc](https://godoc.org/github.com/goccy/go-graphviz?status.svg)](https://pkg.go.dev/github.com/goccy/go-graphviz) 
+# go-graphviz [![Go](https://github.com/pd93/go-graphviz/workflows/Go/badge.svg)](https://github.com/pd93/go-graphviz/actions) [![GoDoc](https://godoc.org/github.com/pd93/go-graphviz?status.svg)](https://pkg.go.dev/github.com/pd93/go-graphviz)
 
 Go bindings for Graphviz
 
@@ -28,7 +28,7 @@ The above are the formats supported by default. You can also add custom formats.
 # Installation
 
 ```bash
-$ go get github.com/goccy/go-graphviz
+$ go get github.com/pd93/go-graphviz
 ```
 
 # Synopsis
@@ -44,7 +44,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/goccy/go-graphviz"
+  "github.com/pd93/go-graphviz"
 )
 
 func main() {
@@ -116,7 +116,7 @@ if err := g.RenderFilename(ctx, graph, graphviz.PNG, "/path/to/graph.png"); err 
 ### Installation
 
 ```bash
-$ go install github.com/goccy/go-graphviz/cmd/dot@latest
+$ go install github.com/pd93/go-graphviz/cmd/dot@latest
 ```
 
 ### Usage
@@ -138,7 +138,7 @@ Help Options:
 
 1. Generates bindings between Go and C from [Protocol Buffers file](./internal/wasm/bind.proto).
 2. Builds graphviz.wasm on the [docker container](./internal/wasm/build/Dockerfile).
-3. Uses Graphviz functionality from a sub-packages ( `cdt` `cgraph` `gvc` ) via the `internal/wasm` package. 
+3. Uses Graphviz functionality from a sub-packages ( `cdt` `cgraph` `gvc` ) via the `internal/wasm` package.
 4. `graphviz` package provides facade interface for all sub packages.
 
 # License

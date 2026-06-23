@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/corona10/goimagehash"
-	"github.com/goccy/go-graphviz"
+	"github.com/pd93/go-graphviz"
 )
 
 var (
@@ -65,7 +65,7 @@ func generateTestData() error {
 	if err != nil {
 		return err
 	}
-	if err := os.WriteFile(imageHashJSON, content, 0644); err != nil {
+	if err := os.WriteFile(imageHashJSON, content, 0o644); err != nil {
 		return err
 	}
 	return nil

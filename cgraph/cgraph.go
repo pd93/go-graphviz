@@ -5,8 +5,8 @@ import (
 	"errors"
 	"os"
 
-	"github.com/goccy/go-graphviz/cdt"
-	"github.com/goccy/go-graphviz/internal/wasm"
+	"github.com/pd93/go-graphviz/cdt"
+	"github.com/pd93/go-graphviz/internal/wasm"
 )
 
 type Graph struct {

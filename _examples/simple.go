@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/goccy/go-graphviz"
+	"github.com/pd93/go-graphviz"
 )
 
 func _main(ctx context.Context) error {

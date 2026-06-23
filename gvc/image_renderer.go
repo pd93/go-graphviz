@@ -14,14 +14,14 @@ import (
 	"github.com/disintegration/imaging"
 	"github.com/flopp/go-findfont"
 	"github.com/fogleman/gg"
-	"github.com/goccy/go-graphviz/internal/wasm"
+	"github.com/pd93/go-graphviz/internal/wasm"
 	"github.com/golang/freetype/truetype"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/gofont/goregular"
 	"golang.org/x/image/font/opentype"
 	"golang.org/x/image/font/sfnt"
 
-	"github.com/goccy/go-graphviz/cgraph"
+	"github.com/pd93/go-graphviz/cgraph"
 )
 
 var (

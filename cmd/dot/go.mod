@@ -1,9 +1,9 @@
-module github.com/goccy/go-graphviz/cmd/dot
+module github.com/pd93/go-graphviz/cmd/dot
 
 go 1.23.0
 
 require (
-	github.com/goccy/go-graphviz v0.2.5
+	github.com/pd93/go-graphviz v0.2.5
 	github.com/jessevdk/go-flags v1.6.1
 	golang.org/x/term v0.25.0
 )

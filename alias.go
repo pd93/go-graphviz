@@ -1,9 +1,9 @@
 package graphviz
 
 import (
-	"github.com/goccy/go-graphviz/cdt"
-	"github.com/goccy/go-graphviz/cgraph"
-	"github.com/goccy/go-graphviz/gvc"
+	"github.com/pd93/go-graphviz/cdt"
+	"github.com/pd93/go-graphviz/cgraph"
+	"github.com/pd93/go-graphviz/gvc"
 )
 
 // types from cdt package.

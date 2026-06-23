@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/goccy/go-graphviz/internal/wasm"
+	"github.com/pd93/go-graphviz/internal/wasm"
 )
 
 type Dict struct {
